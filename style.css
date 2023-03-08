@@ -1,0 +1,56 @@
+nav{
+    background-color: gray;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+footer{
+    height: 200px;
+    background-color: gray;
+    margin-top: 30px;
+}
+
+.picTxt{
+    display: flex;
+    gap: 30px;
+    width: 960px;
+}
+
+.lorem{
+    height: 300px;
+    width: 480px;
+    overflow: scroll;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+button{
+    transition-duration: 0.35s;
+    width: 75%;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+.triple-pics{
+    gap: 30px;
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
